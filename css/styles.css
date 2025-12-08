@@ -514,3 +514,49 @@ wide    1300px - inifito
     margin: 0 0 10px;
     color: #2b4a8a;
 }
+/**/
+
+.eventos {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #e6e6e6;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.mes-holder {
+  margin-bottom: 50px;
+}
+
+.mes-holder h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #020202;
+  border-bottom: 2px solid #ccccd3;
+  padding-bottom: 10px;
+}
+
+.evento-holder {
+  background-color: #feffff;
+  border-left: 6px solid  #4a8fd8;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.evento-holder:hover {
+  transform: translateY(-3px);
+}
+
+.evento-holder p,
+.evento-holder span {
+  margin: 6px 0;
+  color: #404040;
+  font-size: 1rem;
+}
