@@ -486,3 +486,31 @@ wide    1300px - inifito
     .grid .row .col-xl-11 { flex-basis: calc(100% / 12 * 11);}
     .grid .row .col-xl-12 { flex-basis: 100%;}
 }
+
+.hero-faqs{
+    text-align: center;
+}
+
+.faq{
+    width: 60%;
+    margin: 10px auto;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.faq-item {
+    width: 80%;
+    background: #f3f6ff;
+    padding: 20px;
+    margin: 30px auto;
+    border-left: 3px solid #3366cc;
+    border-right: 2px solid #3366cc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.faq-item h3 {
+    margin: 0 0 10px;
+    color: #2b4a8a;
+}

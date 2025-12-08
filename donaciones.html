@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones - Autismo Siguatepeque</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <section class="branding">
+            <img  src="images/logo.jpg" alt="Logo Autismo Siguatepeque">
+            <h1>Autimos Siguatepeque</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                <li><a href="programas.html">Nuestros Programas</a></li>
+                <li><a href="galeria.html">GalerÍa</a></li>
+                <li><a href="ayudar.html">Cómo Ayudar</a></li>
+                <li><a href="donaciones.html">Donar</a></li>
+                <li><a href="faqs.html">FAQ</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+        <section class="hero-panel">
+            <img src="images/donaciones2.jpg" alt="Imagen niño caminando" class="img-donacion">
+            <div class="action-panel">
+                <h2>Donaciones</h2>
+                <p>Cada aporte, por pequeño que sea, ayuda a transformar vidas. ¡Dona hoy y sé parte del cambio!</p>
+            </div>
+        </section>
+        
+        <section class="container">
+            <h2>¿Como hacer una Donación?</h2>
+            <p>Puedes contribuir de diversas maneras</p>
+            <ul>
+                <li>Tarjeta de Credio o Debito</li>
+                <li>Transferencia Bancaria</li>
+                <li>Plataformas Digitales (Paypal)</li>
+            </ul>
+            <p>Tu apoyo nos permite financiar programas y actividades para niños con autismo en Siguatepeque.</p>
+        </section>
+        
+        <section class="container">
+            <h2>Ingrese sus Datos</h2>
+            <form class="margin-b" id="formDonacion">
+                <div class="margin-b">
+                    <label for="txtNombredonador"></label>
+                    <input 
+                        type="text" 
+                        name="txtNombredonador"
+                        id="txtNombredonador"
+                        placeholder="Nombre del donante"
+                        title="Nombre Completo"
+                    >
+                </div>
+
+                <div class="margin-b">
+                    <label for="txtEmailedonador"></label>
+                    <input 
+                        type="text" 
+                        name="txtEmaildonador"
+                        id="txtEmaildonador"
+                        placeholder="ejemplo@correo.com"
+                        title="Correo Electrónico"
+                    >
+                </div>
+
+                <div class="margin-b">
+                    <label for="txtMontodonador"></label>
+                    <input 
+                        type="number"
+                        name="txtMontodonador"
+                        id="txtMontodonador"
+                        title="Monto de la Donación"
+                        placeholder="Monto (LPS)"
+                    >
+                </div>
+
+                <div class="margin-b">
+                    <label for="seleccionMetodo"></label>
+                    <select
+                        type="text" 
+                        name="seleccionMetodo" 
+                        id="seleccionMetodo"
+                        title="Metodo de Pago"
+                    >
+                        <option value="">Seleccione un método de pago</option>
+                        <option value="tarjeta">Tarjeta de Credito - Debito</option>
+                        <option value="transferencia">Transferencia Bancaria</option>
+                        <option value="paypal">Paypal</option>
+                    </select>
+                </div>
+
+                <div id="tarjetacard" style="display: none;">
+                    <div class="margin-b">
+                        <input 
+                            type="text" 
+                            placeholder="Numero de tarjeta"
+                        >
+                    </div>
+                    <div class="margin-b">
+                        <input 
+                            type="text"
+                            placeholder="Nombre en la tarjeta"
+                        >
+                    </div>
+                    <div class="margin-b">
+                        <input 
+                            type="text"
+                            placeholder="MM/AA"
+                        >
+                    </div>
+                    <div class="margin-b">
+                        <input  
+                            type="text"
+                            placeholder="cvv"
+                        >
+                    </div>
+
+                </div>
+                <div id="transferenciadonacion" style="display: none;">
+                    <p>Realice su transferencia y envíe la captura al Whatsapp porfavor/p>
+                    <p>
+                        <strong>
+                            <a href="https:wa.me/5040000-0000" target="_blank">
+                                +504 0000-0000
+                            </a>
+                        </strong>
+                    </p>
+                </div>
+
+                <div class="margin-b">
+                    <label for="txtMensajedonador"></label><br/>
+                    <textarea   
+                        name="txtMensajedonador" 
+                        id="txtMensajedonador"
+                        placeholder="Mensaje (Opcional) "
+                        rows="5"
+                    ></textarea>
+                </div>
+
+
+                <button class="btnForm" name="btndonar" value="save" type="submit">Donar</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Autismo Siguatepeque. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
