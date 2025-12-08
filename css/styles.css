@@ -560,3 +560,58 @@ wide    1300px - inifito
   color: #404040;
   font-size: 1rem;
 }
+
+/* BLOG */
+
+.blog-post {
+    background: #ffffff;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.blog-post h3 {
+    margin-top: 0;
+    color: #005f99;
+}
+
+.blog-post .meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.simple-card {
+    background: #ffffff;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.simple-card h3 {
+    margin-top: 0;
+    color: #005f99;
+}
+
+.pdf-card {
+    background: #f3faff;
+    border-left: 6px solid #0099cc;
+    padding: 15px 20px;
+    margin: 25px 0;
+    border-radius: 8px;
+}
+
+.pdf-card a {
+    color: #0077b6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pdf-card a:hover {
+    text-decoration: underline;
+}
+
+
+
