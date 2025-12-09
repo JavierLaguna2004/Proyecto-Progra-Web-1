@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos - Autismo Siguatepeque</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <section class="branding">
+            <img src="images/logo.jpg" alt="Logo Autismo Siguatepeque">
+            <h1>Autismo Siguatepeque</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                <li><a href="programas.html">Nuestros Programas</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="ayudar.html">Cómo Ayudar</a></li>
+                <li><a href="donaciones.html">Donar</a></li>
+                <li><a href="faqs.html">FAQ</a></li>
+                <li><a href="contacto.html">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-panel">
+            <img src="images/galeria10.jpg" alt="Contacto Autismo Siguatepeque">
+            <div class="action-panel">
+                <h2>Contáctenos</h2>
+                <p>Estamos aquí para responder tus preguntas y ayudarte a conectar con nuestra organización.</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Información de Contacto</h2>
+            <p>Puedes comunicarte con nosotros a través de los siguientes medios:</p>
+            <ul class="contact-info">
+                <li>
+                    <img src="images/icon_telephone.png" alt="Teléfono" class="icon-list">
+                    <strong>Teléfono / WhatsApp:</strong>&nbsp;
+                    <span>+504 9996-1109</span>,&nbsp; 
+                    <span>+504 9975-4652</span>
+                </li>
+                <li>
+                    <img src="images/icon_email.png" alt="Correo" class="icon-list">
+                    <strong>Correo electrónico:</strong>&nbsp; 
+                    <a href="mailto:autismosiguatepeque@gmail.com">autismosiguatepeque@gmail.com</a>
+                </li>
+            </ul>
+
+            <h3>Síguenos en redes sociales:</h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100065623384199" target="_blank">
+                    <img src="images/icon_facebook.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/autismo_sigua/" target="_blank">
+                    <img src="images/icon_instagram.png" alt="Instagram" class="social-icon">
+                </a>
+            </div>
+        </section>
+
+        <section class="container grid">
+            <div class="row">
+                <div class="col-12 col-m-6">
+                    <div class="formulario">
+                        <h2>Envíanos un mensaje</h2>
+                       <form id="contact-form" action="#" method="POST" novalidate>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                            <span class="error" id="nombreError">El nombre es requerido.</span>
+
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                            <span class="error" id="emailError">El correo es requerido y debe ser válido.</span>
+
+                            <label for="asunto">Asunto:</label>
+                            <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required>
+                            <span class="error" id="asuntoError">El asunto es requerido.</span>
+
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            <span class="error" id="mensajeError">El mensaje es requerido.</span>
+
+                            <button class="btnForm" name="btnEnviar" value="save" type="submit">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-m-6">
+                    <div class="mapa">
+                        <h2>Ubicación</h2>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2230.459116383236!2d-87.84067781130574!3d14.594072623854023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6595004124bd53%3A0x7d7b6839080a9999!2sFundaci%C3%B3n%20Autismo%20Siguatepeque!5e0!3m2!1ses-419!2shn!4v1765175301015!5m2!1ses-419!2shn" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Autismo Siguatepeque. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

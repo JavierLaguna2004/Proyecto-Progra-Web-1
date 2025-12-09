@@ -79,4 +79,57 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
         });
     }
+    // Validar formulario
+    const myForm = document.getElementById("contact-form");
+    const nombreInput = document.getElementById("nombre");
+    const nombreError = document.getElementById("nombreError");
+    const emailInput = document.getElementById("email");
+    const emailError = document.getElementById("emailError");
+    const asuntoInput = document.getElementById("asunto");
+    const asuntoError = document.getElementById("asuntoError");
+    const mensajeInput = document.getElementById("mensaje");
+    const mensajeError = document.getElementById("mensajeError");
+
+    const isEmptyRegex = /^\s*$/;
+    const isValidEmailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const isValidMessage = /^\s*\S+(?:\s+\S+){2,}\s*$/; 
+
+    myForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        let isValid = true;
+
+        nombreError.style.display = "none";
+        if (isEmptyRegex.test(nombreInput.value)) {
+            nombreError.style.display = "block";
+            isValid = false;
+        }
+
+        emailError.style.display = "none";
+        if (!isValidEmailRegex.test(emailInput.value)) {
+            emailError.style.display = "block";
+            isValid = false;
+        }
+
+        asuntoError.style.display = "none";
+        if (isEmptyRegex.test(asuntoInput.value)) {
+            asuntoError.style.display = "block";
+            isValid = false;
+        }
+
+        mensajeError.style.display = "none";
+        if (!isValidMessage.test(mensajeInput.value)) {
+            mensajeError.style.display = "block";
+            isValid = false;
+        }
+
+        if (isValid) {
+            console.log("Formulario válido. Datos a enviar:", {
+                nombre: nombreInput.value,
+                email: emailInput.value,
+                asunto: asuntoInput.value,
+                mensaje: mensajeInput.value
+            });
+            myForm.submit();
+        }
+    });
 });
