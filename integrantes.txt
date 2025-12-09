@@ -1,0 +1,26 @@
+--> INTEGRANTES <--
+
+Integrante 1:
+Nombre: Javier Edgardo Laguna Montoya
+No. Cuenta: 0801200415036
+Usuario GitHub:JavierLaguna2004
+
+Integrante 2:
+Nombre: Khristopher Omar Sierra Maldonado
+No. Cuenta: 0716200400178
+Usuario GitHub: Natan115-dev
+
+Integrante 3:
+Nombre: Saul Armando Doblado Claros
+No. Cuenta: 1007200000816
+Usuario GitHub:sauadobladoc-tech
+
+Integrante 4:
+Nombre: Silvia Naomy Zambrano Alonso
+No. Cuenta: 0210200500884
+Usuario GitHub:naomyzambrano
+
+Integrante 5:
+Nombre: Yordis Alexis Martinez Sevilla
+No. Cuenta: 0601200600958
+Usuario GitHub:Yordis-Sevilla
